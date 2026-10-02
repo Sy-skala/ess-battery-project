@@ -1,0 +1,15 @@
+# ESS notebook analysis dependencies (Python 3.11)
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.11,<2
+matplotlib>=3.8,<4
+h5py>=3.10,<4
+mat73>=0.65,<1
+
+# Two-feature regression models
+scikit-learn>=1.5,<2
+joblib>=1.4,<2
+
+# Notebook execution
+ipykernel>=6.29,<8
+jupyterlab>=4.2,<5

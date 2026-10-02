@@ -1,0 +1,26 @@
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Raw battery data and generated model files
+*.mat
+*.joblib
+*.pkl
+*.pickle
+
+# Personal settings and local environment files
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+
+# Older scratch notebooks retained locally
+/30-ESSHealth-Batch1-EDA.ipynb
+/30-ESSHealth-4Features-Check.ipynb
+
+# Generated EDA and modeling results
+/results/
+/Modeling/results/
